@@ -4,8 +4,38 @@
   box-sizing: border-box; }
 
 body {
-  background: #92BD29; }
+  background: red;
+  color: #0000; }
+
+.con {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px; }
+
+.header-menu {
+  background: #000;
+  display: flex;
+  flex-wrap: wrap; }
+  .header-menu .logo {
+    flex-grow: 1; }
+  .header-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1; }
+
+.content-section {
+  background: #38a899; }
+
+.content_parent {
+  display: flex; }
+
+.child {
+  flex-grow: 1; }
+  .child p {
+    color: blue; }
 
 h2 {
   color: white;
-  font-size: 200px; }
+  font-size: 50px; }
